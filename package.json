@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "JavaScript development environment from scratch.",
   "scripts": {
-     "prestart":"node buildScripts/startMessage.js",
-     "start":"node buildScripts/srcServer.js"
+     "prestart": "node buildScripts/startMessage.js",
+     "start": "node buildScripts/srcServer.js",
+     "security-check": "nsp check"
   },
   "author": "Himank bhalla",
   "license": "MIT",
